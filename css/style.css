@@ -1,118 +1,181 @@
-body {
-    font-family: Helvetica, Arial, sans-serif;
-    color: #FFFFFF;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
-.header {
-    background-color:black;
-    background-size: cover;
-    box-sizing: border-box;  
+header {
+    background-color: #000;
+    display: block;
 }
 
-.container {
+.main-container {
+    width: 1200px;
     margin: 0 auto;
-    width: 1000px;
+    display: block;
+    border: 1px solid red;
 }
 
-.Logo {
-    font-size: 30px;
-    color: white;
-    display: inline-block; 
-    padding: 10px;
-}
-
-.menu {
+.color {
+    color: #24baa0;
     text-transform: uppercase;
-    color: white;
-    display: inline-block;
-    float: right;
-    padding: 10px;
-    margin: 0 auto;
-    position: relative;
-    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bolder;
 }
 
-.box1 {
-    background-color: white;
+.logo {
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.color-logo2 {
+    color: #24baa0;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    line-height: 40px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.logo2 {
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    line-height: 40px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.logo:first-child {
+    margin-left: 15px;
+}
+
+.half-width {
     width: 50%;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    color: black;
+    display: inline-block;
     float: left;
-    margin: 0 auto;
-    min-height: 301px;
 }
 
-img {
-    width: 350px; 
-}
-
-.imgcenter {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-section:after{
+.main-container:after,
+.half-width:after,
+.one-third-width:after,
+.part10:after,
+.part35:after,
+.part45:after {
     clear: both;
     content: "";
     display: block;
+
 }
 
-.uppercase {
+ol {
+    color: #FFF;
+    float: right;
+    height: 40px;
+    line-height: 40px; 
+    font-weight: normal;
+    list-style-type: none;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
     text-transform: uppercase;
+    font-weight: 800;
+    
 }
 
-.paragraph {
-    padding: 5px;
-    font-style: oblique;
-    text-align: justify;
-}
-
-.black-background {
-    background-color: black;
-}
-
-.box2 {
+ol > li {
+    color: #FFF;
+    text-transform: uppercase;
+    height: 40px;
+    line-height: 40px; 
+    font-weight: normal;
     float: left;
-    width: 33.33%;
-    background-color: black;
-    padding: 5px;
-    color: black;
+    width: 100px;
+    margin-right: 50px;
+    font-weight: 800;
+    
+}
+
+ol > li:last-child {
+    margin-right: 0;
+}
+
+ol > li > ul > li {
+    margin: 0;
+}
+
+.background {
+    background-image: url(../images/layer.jpg);
+    background-size: cover;
+    min-height: 500px;
+
+}
+
+.part10 {
+    width: 10%;
+    min-height: 500px;
+    display: inline-block;
+    float: left;
+}
+
+.part35 {
+    width: 35%;
+    min-height: 500px;
+    display: inline-block;
+    float: left;
+}
+
+.part45 {
+    width: 45%;
+    min-height: 500px;
+    display: inline-block;
+    float: left;
+}
+
+img {
+    position: relative;
+    top: 81.5px;
+}
+
+.box-header {
     margin: 0 auto;
-    height: 201px;
-    display: inline-block;
-    box-sizing: border-box;
-    
-    
+    position: relative;
+    text-align: center;
 }
 
-.imgsize {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} 
-
-.innerbox:first-child {
-    padding-right: 10px;
+.part45 p {
+    font-size: 15px;
+    text-align: center;
+    width: 380px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.copyrights {
-    color: black;
-    display: inline-block;
+.button {
+    background-color: #24baa0;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.innerbox2 {
-    width: 100%;
-    height: 100%;
-    display: block;
-    background-color: white;
+.button > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 50px;
+    color: #FFF;    
 }
-/*
 
-innerbox2:first-child {
-    padding-left
+.middle {
+    position: relative;
+    top: 150px;
 }
-*/
-
