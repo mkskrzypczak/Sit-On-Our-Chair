@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Sit On Our Chair</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,800" rel="stylesheet">
 </head>
     <body>
         <header>
@@ -14,9 +14,22 @@
                 </div>
                 <div class="half-width">
                     <nav>
-                    <ol>
-                        <li>O firmie
-                        <li>Galeria</li>
+                    <ol class="menu">
+                        <li>
+                            O firmie
+                            <ul class="submenu">
+                                <li>Aktualności</li>
+                                <li>Nasz team</li>
+                                <li>Historia</li>
+                            </ul>
+                        </li>
+                        <li>Galeria
+                            <ul class="submenu">
+                                <li>Nowe produkty</li>
+                                <li>Nowa kolekcja</li>
+                                <li>Archiwum</li>
+                            </ul>
+                        </li>
                         <li>Kontakt</li>
                     </ol>
                     </nav>
@@ -25,10 +38,10 @@
         </header>
         <section class="background">
             <div class="main-container"> 
-                <div class="part10">
+                <div class="part10"><span>&#60</span>
                 </div>
                 <div class="part35">
-                    <img src="images/black_chair.png">
+                    <img class="imgSlider" src="images/black_chair.png">
                 </div>
                 <div class="part45">
                     <div class="middle">
@@ -43,9 +56,138 @@
                         </div>
                     </div>
                 </div>
-                <div class="part10">
+                <div class="part10"><span>&#62</span>
                 </div>
             </div>
         </section>
+        <section class="secondSection">
+            <div class="main-container">
+                <div class="one-third">
+                    <div class="imgbox1"></div>
+                </div>
+                <div class="one-third">
+                    <div class="imgbox2"></div>
+                </div>
+                <div class="one-third">
+                    <div class="boxWithText">
+                        <h3 class="sectionTitle">Find All inputs</h3>
+                        <div class="smallGreenBox"></div>
+                        <p class="findAllInputs">
+                            Candy oat cake macaroon tart cake pudding croissant croissant. Soufflé cheesecake tootsie roll candy canes candy canes jujubes powder jelly beans. Cotton candy chocolate danish gummies cupcake.
+                        </p>
+                        <p class="findAllInputs">
+                            Candy oat cake macaroon tart cake pudding croissant croissant.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="thirdSection">
+            <div class="main-container">
+                <h3>Cennik</h3>
+                <div class="smallGreenBox"></div>
+                <div>
+                    <div class="one-third first">
+                        <div class="card">
+                            <div class="mainCircle">
+                                <div class="innerCircle"></div>
+                            </div>
+                            <div class="plan">Basic Plan</div>
+                            <div class="bigCircle">
+                                <div class="textWithinCircle">
+                                    85<sup>99</sup>    
+                                </div>
+                                <div class="textWithinCircle1">
+                                    pln/msc
+                                </div>
+                            </div>
+                            <div class="buttonSmall">Dołącz</div>
+                            <p class="row1">Zakup towaru + dowóz</p>
+                            <p class="row2">Serwis</p>
+                        </div>
+                    </div>
+                    <div class="one-third">
+                        <div class="card">
+                            <div class="mainCircle">
+                                <div class="innerCircle"></div>
+                            </div>
+                            <div class="planStandard">Standard Plan</div>
+                            <div class="bigCircle1">
+                                <div class="textWithinCircle2">
+                                    95<sup>99</sup>    
+                                </div>
+                                <div class="textWithinCircle3">
+                                    pln/msc
+                                </div>
+                            </div>
+                            <div class="buttonSmallStandard">Dołącz</div>
+                            <p class="row3">Zakup towaru + dowóz</p>
+                            <p class="row2">Serwis</p>
+                            <p class="row3">Gwarancja 5 lat</p>
+                        </div>
+                    </div>
+                    <div class="one-third">
+                        <div class="card">
+                            <div class="mainCircle">
+                                <div class="innerCircle"></div>
+                            </div>
+                            <div class="plan">Advance Plan</div>
+                            <div class="bigCircle">
+                                <div class="textWithinCircle">
+                                    211<sup>00</sup>    
+                                </div>
+                                <div class="textWithinCircle1">
+                                    pln/msc
+                                </div>
+                            </div>
+                            <div class="buttonSmall">Dołącz</div>
+                            <p class="row1">Zakup towaru + dowóz</p>
+                            <p class="row2">Serwis</p>
+                            <p class="row1">Gwarancja 6 lat</p>
+                            <p class="row2">Porady projektanta</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fourthSection">
+            <div class="main-container">
+                <h3>Kontakt</h3>
+                <div class="contactForm">
+                    <div class="smallGreenBox"></div>
+                    <input class="name" type="text" placeholder="Imię">
+                    <input class="mailAddress" type="email" placeholder="email">
+                    <textarea class="message" placeholder="Wiadomość"></textarea>
+                </div>
+                <div class="submitForm">
+                    <div class="tickBox">
+                        <div>
+                        <img src="images/red_chair.png">
+                        </div>
+                        <div>
+                            <input class="checkbox" type="checkbox"><label><span></span>Zgadzam się na przetwarzanie danych osobowych</label>
+                        </div>
+                        <div class="submitButton">Wyślij 
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <footer class="main-container">
+            <div class="half-width copyrights">
+            <p>Copyright 2014 | All Rights Reserved. - Sit On Chair</p>
+            </div>
+            <div class="half-width">
+                <div class="images">
+                    <img src="images/flickr.png" >
+                    <img src="images/vimeo.png" >
+                    <img src="images/pinterest.png">
+                    <img src="images/twitter.png">
+                </div>
+                <div class="bottomLogo">
+                    <span>Sit </span><span>On </span><span> Chair</span>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
