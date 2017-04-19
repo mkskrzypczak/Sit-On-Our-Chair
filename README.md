@@ -1,4 +1,4 @@
 # Sit-On-Our-Chair
-Hope Page of Sit On Our Chair site
+Home Page of Sit On Our Chair site
 
-Project in progress
+
